@@ -11,12 +11,17 @@ public class Hellos {
 
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
+    builder.append(phoebeSaysHello());
 
     return builder.toString();
   }
 
   private String nicSaysHello() {
     return "Nic says 'Howdy!'\n";
+  }
+
+  private String phoebeSaysHello() {
+    return "Phoebe says 'Woof-woof!'\n";
   }
 
   private String kkSaysHello() {
