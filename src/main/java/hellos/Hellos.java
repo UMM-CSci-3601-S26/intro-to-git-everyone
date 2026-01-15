@@ -17,7 +17,7 @@ public class Hellos {
   }
 
   private String blakeSaysHello() {
-    return "Blake say 'Hello'\n";
+    return "Blake says 'Hello'\n";
   }
 
   private String kkSaysHello() {
