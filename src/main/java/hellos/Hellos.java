@@ -11,6 +11,7 @@ public class Hellos {
 
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
+    builder.append(blakeMaxSaysHello());
 
     return builder.toString();
   }
@@ -21,6 +22,11 @@ public class Hellos {
 
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  // This method says hello from both Blake and Max
+  private String blakeMaxSaysHello() {
+    return "Blake and Max says 'Hello!'\n";
   }
 
 }
