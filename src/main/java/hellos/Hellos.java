@@ -8,25 +8,27 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
-
+    builder.append(blakeSaysHello());
     builder.append(kkSaysHello());
+    builder.append(maxSaysHello());
     builder.append(nicSaysHello());
-    builder.append(blakeMaxSaysHello());
 
     return builder.toString();
   }
 
-  private String nicSaysHello() {
-    return "Nic says 'Howdy!'\n";
+  private String blakeSaysHello() {
+    return "Blake say 'Hello'\n";
   }
 
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }
 
-  // This method says hello from both Blake and Max
-  private String blakeMaxSaysHello() {
-    return "Blake and Max says 'Hello!'\n";
+  private String maxSaysHello() {
+    return "Max says 'Hi there!'\n";
   }
 
+  private String nicSaysHello() {
+    return "Nic says 'Howdy!'\n";
+  }
 }
