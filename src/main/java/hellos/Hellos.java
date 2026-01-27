@@ -22,9 +22,15 @@ public class Hellos {
     builder.append(nicSaysHello());
     builder.append(phoebeSaysHello());
     builder.append(pierceSaysHello());
+    builder.append(pounceSaysHello());
     builder.append(thatcherSaysHello());
     builder.append(tylerSaysHello());
+
     return builder.toString();
+  }
+
+  private Object pounceSaysHello() {
+    return "Pounce says 'Go Cougars!'\n";
   }
 
   private String guadalupeSaysHello() {
